@@ -1,0 +1,701 @@
+All activity
+
+Posts
+
+Comments
+
+Images
+
+Articles
+
+Reactions
+Loaded 20 Posts posts
+Feed post number 1
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+6d • Edited •  6 days ago • Edited • Visible to anyone on or off LinkedIn
+
+Axoworks’ MCP connector is open for business. We gave visiting AIs their own front door. Let your AI agents do the talking.
+
+AI agents can scavenge raw data and misrepresent your business. The Concierge serves them made-to-order answers instead, curating what those agents say about Axoworks.
+
+We’re serving up a whole new menu. Omakase, not a buffet.
+
+A curated-corpus AI→AI website — an AI that serves visiting AIs. As far as we know, the first in our industry … tell us if we’re wrong.
+
+Full build log + the playbook → link in first comment.
+
+hashtag#ZeroClickMarketing hashtag#MCP hashtag#AI hashtag#GEO hashtag#AgenticWeb
+Activate to view larger image,
+graphical user interface
+Activate to view larger image,
+like
+1
+3 comments
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+196 impressions
+View analytics
+Feed post number 2
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+1w • Edited •  1 week ago • Edited • Visible to anyone on or off LinkedIn
+
+The AI Vulcan mind meld is live. 🖖 Your notes. Your insights. Your memories — now AI's active reasoning.
+🎁 Axoworks is giving you RAG powers in the open-source DSH. Free.
+
+We added the 3rd rail to this train of thought: you are now the Source-of-Truth.
+
+Your business. Your ideas. Your voice — ingested into a vector database (the AI's prefrontal cortex). No database server. No fine-tuning.
+
+Facts. Not a vibe.
+
+Our exchange today: 
+👤 "What's the minimum gate width for a fire apparatus access road?" 
+🤖 "20 feet (6096 mm) — IFC Appendix D, page 2, D103.5."
+Every answer backed with a citation: file, page, section heading.
+That answer cost $0.0024 — 28.9K tokens, 47 seconds. (Receipt in the first comment below.)
+
+DSH (DeepSeek Harness) — the open-source cage around your AI.
+📄 https://lnkd.in/g_Pyu8zP
+
+RAG (Retrieval Augmented Generation) — the bridge from your notes, library, and insights straight into the model's active reasoning.
+🛠️ https://lnkd.in/gTGD4fEf
+
+🧠 hashtag#RAG hashtag#AgenticAI hashtag#Architecture hashtag#AI hashtag#OpenSource
+Activate to view larger image,
+View image
+Activate to view larger image,
+like
+1
+2 comments
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+353 impressions
+View analytics
+Feed post number 3
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+2w •  2 weeks ago • Visible to anyone on or off LinkedIn
+
+Game’s over. Pay-to-play? Only for laggards.
+Big labs love to cage you: learn the menus, take the courses, get certified.
+Subscription? Tiered. Cough up for a longer leash. 
+Quota? Tax on your ambitions.
+
+Flip the switch ⏻
+
+Put the harness where it belongs: on the machine. Not you.
+
+Grab DeepSeek Harness. AxoWorks open-sourced the presets 🎁.
+No strings. No menu dives. No $$$ courses. No certs. No ransom.
+
+UI is a sentence now.
+
+You talk. 
+It plans → fact-checks → smoke-tests → delivers.
+Coffee’s still hot.
+
+Receipts: 
+Full research report ≈ $1. 
+Zoning gut-check ≈ cents. 
+Local weights? ≈ free.
+
+🏛️ Architects — code checked in minutes, not days. Citations attached. 
+🏢 Developers — pro-forma & IRR stress-tested before the bank meeting. 
+🏠 Homeowners — title, parcel & setback traps flagged before escrow.
+💻 IT / Ops — headless pipelines that triage and self-heal on your own metal.
+
+The machine wears the harness now. You just talk — it clicks. No mousing around.
+
+📖 Full breakdown + repo in the comments 👇. No catch.
+
+AI augments licensed expertise. Verify against local code and counsel.
+
+hashtag#AIAgents hashtag#OpenSource hashtag#DeepSeek hashtag#FutureOfWork hashtag#PropTech
+Activate to view larger image,
+View image
+Activate to view larger image,
+like
+3
+Tina Song and 2 others
+3 comments
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+710 impressions
+View analytics
+Feed post number 4
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+2w • Edited •  2 weeks ago • Edited • Visible to anyone on or off LinkedIn
+
+🎁 Free from Axoworks. No signup, no trial, no catch.
+$1. That's what a property report costs now. Free ... if you know the hustle.
+Same report two interns and a PM used to burn 1–3 full days churning. Do the math.
+
+70s Scratch turned a Playback into Vibe. The linear 33⅓, broken into asynchronous fire.
+
+Borrowed that playbook, retooled DeepSeek Harness. Big labs said 'stay in your lane'. We shipped the open-sourced build. $1 report’s the output. That tool ... it’s yours.
+
+Deep Research or Gut Check? Your call. Feed it one address or 10. Grill it hard, as you would a human. Then leave it alone with an old laptop and an API key.
+
+Every property. Researched in parallel. An entire research department’s output before your coffee goes cold.
+
+Deep pockets and ol’ skool still work. But if you’re on a shoestring, here’s the out
+
+⚙️ Install DeepSeek Harness (DSH)  → Tell it to grab our repo → load the preset 
+🗣️ Give it an address. Crank out some awesomeness.
+
+🔗 Repo in 1st comment. You read this far. You earned it.
+
+Live in the now. 🎚️
+
+hashtag#PropTech hashtag#RealEstateTech hashtag#AIAgents hashtag#OpenSource hashtag#Zoning
+Activate to view larger image,
+View image
+Activate to view larger image,
+like
+4
+You and 3 others
+3 comments
+1 repost
+
+like
+Like
+
+Comment
+
+Repost
+
+Send
+751 impressions
+View analytics
+Feed post number 5
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+3w • Edited •  3 weeks ago • Edited • Visible to anyone on or off LinkedIn
+
+Pick your top 3 contenders folks! Here's why! And it's not because we open sourced The Pit!
+
+You don’t fact-check AI by asking it “Are you sure?” a 2nd time. You throw it into a fight club! A fight is a check. A referee is a decision.
+
+We stopped asking a single AI for the answer. We built a fight club to catch our own models lying:
+
+🛡️ The Advocate — argues FOR, no mercy. 
+⚔️ The Prosecution — argues AGAINST, won’t concede. 
+🦡 The Honey Badger — takes no side, just brings receipts. 
+⚖️ The Referee — scores it. Winner, points, strongest AND weakest argument.
+
+Cost? 13 model calls.
+
+Free if you know the hustle. Otherwise, roughly the price of one long, mediocre chatbot answer.
+
+The whole team is an open-source drop-in preset for the 1-wk old DeepSeek Harness. It's yours!
+
+Link to the full technical breakdown and GitHub repo in the comments. 👇
+
+We told you the dog lies in our 3-Dog Theory. Then make the dog argue with itself.
+
+Stop Fact-Checking AI With AI. Run a 4-Model Debate Instead (Open-Source Setup)
+medium.com
+like
+2
+Kee Hong SONG and 1 other
+1 comment
+
+Like
+
+Comment
+
+Repost
+
+Send
+376 impressions
+View analytics
+Feed post number 6
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+3w • Edited •  3 weeks ago • Edited • Visible to anyone on or off LinkedIn
+
+Most senior architects can’t drive CAD. Let alone Revit. 
+What if they could just ask the BIM model directly? No Revit training.
+
+If your firm already pays the Revit software ransom, here is how you bypass the AI hardware tax:
+
+We just open-sourced 'revit-tools', upgrading our original 'revitmcp' bridge to run with the new DeepSeek Harness (DSH) that shipped barely a week ago. This is a game changer.
+
+Integrating DeepSeek Harness (DSH) model routing changes the economic calculus:
+- Flexibility: Route simple tasks through small local models, and heavy reasoning through API-hosted frontier models using the exact same presets and audits.
+- Hardware offload: The local hardware threshold collapses. The answers get better, and your LLM selection becomes a simple dropdown menu rather than a capital expense request.
+- Full Customization: Zero-dependency architecture with complete control over prompt constraints and tool-calling logic.
+
+Free is good. But freedom from hardware lock-in is priceless.
+
+The port is fully open source under the MIT license. It consists of a single Python file with zero external dependencies.
+
+📦 Technical review https://lnkd.in/gsnbZJiS
+
+📦 Code repo https://lnkd.in/gbE_gJRK
+
+hashtag#Revit hashtag#BIM hashtag#DeepSeek hashtag#OpenSource hashtag#AEC hashtag#ArchitectureAI
+Activate to view larger image,
+View image
+Activate to view larger image,
+1 comment
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+657 impressions
+View analytics
+Feed post number 7
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+1mo • Edited •  1 month ago • Edited • Visible to anyone on or off LinkedIn
+
+The Lineup: Which AI You Bringing to the Heist?
+Ain't pulling no Ocean's 11 with these rats. Wanna roll 'snake eyes' on every throw? That's a sucker's bet! Pulled a shakedown. Here's the lineup and the rap sheets. Who's gonna fold when the cops show, who got your back at the stand when it all goes down. 
+Read the Medium spill. Wise up -> https://lnkd.in/gQAB82BX
+
+The Lineup: Which AI You Bringing to the Heist?
+medium.com
+like
+1
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+283 impressions
+View analytics
+Feed post number 8
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+1mo •  1 month ago • Visible to anyone on or off LinkedIn
+
+Headcount used to be the corporate moat. 2026, it’s overhead & friction.
+2 AEC veterans built The Concierge. It walks you thru Shanghai skyscraper permits in fluent Mandarin.
+That #2 on Hacker News, 6-hr, 6300-pageview torture test: $0.74.
+No paywall. No corporate handshake. No browsing. Just real conversations.
+TINY is MIGHTY. Believe it!
+Read 👇
+
+The $0.74 Website
+medium.com
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+234 impressions
+View analytics
+Feed post number 9
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+1mo • Edited •  1 month ago • Edited • Visible to anyone on or off LinkedIn
+
+90% of firms don't have an AI strategy problem. They have a dog problem. Our 3-Dog Theory from January aged well. 6 months later, we've gone from prompting to agentic autonomy ... it still holds. Read the update 👇
+
+The 3 Dog Theory: Why Your Firm’s AI may be Failing . (An August 2026 update)
+medium.com
+like
+1
+1 comment
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+333 impressions
+View analytics
+Feed post number 10
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+1mo • Edited •  1 month ago • Edited • Visible to anyone on or off LinkedIn
+
+Showing 1 politically loaded photograph to frontier language models, and watching each fail in a different, diagnostic way. Including a model that later published its own account of the failure.
+
+The results ended up telling me less about China’s dramatic socio-political transformation than they did about flaws in machine intelligence: specifically, the 3 structural ways models compromise on the truth while sounding completely authoritative the entire time
+
+Read the full Technical Report in Substack ↓
+https://lnkd.in/ddmtwFDr
+Activate to view larger image,
+View image
+Activate to view larger image,
+like
+2
+Tina Song and 1 other
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+451 impressions
+View analytics
+Feed post number 11
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+2mo • Edited •  2 months ago • Edited • Visible to anyone on or off LinkedIn
+
+Axoworks dumped Wix 6mo back, shipped 2026's first fully Agentic AI site. Browsing is dead ... or is it? 
+
+Full postmortem: the tech is here; the humans may still be in beta.
+
+Read Substack article → https://lnkd.in/gdNEUnY2
+Activate to view larger image,
+graphical user interface, website
+Activate to view larger image,
+like
+1
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+381 impressions
+View analytics
+Feed post number 12
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+2mo • Edited •  2 months ago • Edited • Visible to anyone on or off LinkedIn
+
+Design is deterministic. Diffusion is probabilistic.
+Text prompts alone cannot enforce material boundaries or layout geometry. 
+The 4-layer stack we use at AxoWorks to lock generative output from BIM data:
+Semantic Maps → Site LoRAs → ControlNet → SAM
+
+Read full deployment blueprint in Substack post ↓
+ https://lnkd.in/gU2Gjd6s
+Activate to view larger image,
+View image
+Activate to view larger image,
+like
+2
+Tina Song and 1 other
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+446 impressions
+View analytics
+Feed post number 13
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+3mo • Edited •  3 months ago • Edited • Visible to anyone on or off LinkedIn
+
+ArchViz Tip: 'Coercing AI Compliance'
+Stop gambling with complex prompts for consistency. Build structural rails.
+
+Driving deterministic outcomes in probabilistic AI models is like rolling a handful of dice and expecting the same numbers every time... unless you rig the game.
+
+The Rig: Use semantic color-coding on your 3D models to anchor material placement across viewpoints.
+
+Prompt guesses, feeding high-contrast color maps into conditioning nodes locks the boundaries of your materials, nudging the AI to respect layout geometry.
+
+hashtag#GenerativeAI hashtag#ComfyUI hashtag#DesignWorkflows
+
+View image
+
+View image
+Activate to view larger image,
+like
+1
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+396 impressions
+View analytics
+Feed post number 14
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+4mo • Edited •  4 months ago • Edited • Visible to anyone on or off LinkedIn
+
+Goliath won that closed-loop round. Autodesk Assistant 2027 ate our lunch with brute-force scale, querying the model like SQL.
+
+This David ain’t quitting, already building a next-gen slingshot. Dumped our crackpot Revit API connector, and open-sourced the Upgrade.
+
+Why? The devil is in the local details, where out-of-the-box wizard assistants don’t dare dwell. We live in the wild trenches, where practitioners need survival tools to fend off real open-loop chaos… jurisdictional audits against zoning, building, and energy codes.
+
+We open-sourced 'revitmcp', widening the path from BIM to AiBIM. No wrapper. No theater. Just a Python bridge between Revit 2027 and local RAG, throwing parametric data against hostile city ordinances before it hits the site.
+
+Tomorrow is here, yet we are partying like it's 1999 when Revit 1.0 just dropped. Sober up to the Velvet Underground’s brutal truth:
+
+“And what costume shall the poor girl wear, To all tomorrow’s parties? 
+A hand-me-down dress from who knows where, To all tomorrow’s parties, 
+And where will she go and what shall she do, When midnight comes around? 
+She’ll turn once more to Sunday’s clown And cry behind the door”
+
+Don’t show up to all tomorrow’s parties in a hand‑me‑down.
+
+Fork it. Break it. Build with it. The slingshot is yours.
+
+Github Repo below. 👇 
+https://lnkd.in/g27aMGMv
+
+hashtag#AiBIM hashtag#BIM hashtag#Revit hashtag#RevitMCP hashtag#OpenSource hashtag#AEC hashtag#CodeCompliance
+Activate to view larger image,
+View image
+Activate to view larger image,
+like
+4
+3 comments
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+627 impressions
+View analytics
+Feed post number 15
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+5mo • Edited •  5 months ago • Edited • Visible to anyone on or off LinkedIn
+
+Tiny=Mighty: AI-Web 30-Day Post-Mortem ⚡
+
+Hitting the No. 2 spot on Hacker News for a few hours yesterday was big deal, but our 30-day web logs for Axoworks was even wilder.
+
+Our 2-person team handled: 
+📈 17,401 total pageviews 
+👥 5,084 unique global visitors (US, France, Austria, Singapore...)
+
+Best part? Total bandwidth burned handling 5,000+ humans on our AI Concierge: 631 MB. Less data than 1-episode of Netflix. Our hosting bill ... pennies.
+
+For the gearheads: Our top "404 Not Found" errors are from automated botnets aggressively trying to hack /xmlrpc.php and /wp-login.php.
+
+Killing the corporate Wix/WordPress brochure and moving to a duct-taped AI Edge agent, we became immune to CMS brute-force attacks. The hack bots are just confused, punching empty air.
+
+AI Edge is the great equalizer for tiny firms. No massive IT budget, no heavy backend for global reach. You just need good design logic and some duct tape.
+
+hashtag#EdgeAI hashtag#AEC hashtag#Architecture hashtag#Startups hashtag#BuildInPublic hashtag#DeepSeek
+Activate to view larger image,
+View image
+Activate to view larger image,
+likecelebrate
+5
+1 comment
+2 reposts
+
+Like
+
+Comment
+
+Repost
+
+Send
+421 impressions
+View analytics
+Feed post number 16
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+5mo • Edited •  5 months ago • Edited • Visible to anyone on or off LinkedIn
+
+Our Concierge AI handled 3,300+ global visitors for $0.74.
+
+This morning, my 2-person design consultancy hit the front page of Hacker News.
+
+6,300+ pageviews from the US to France to India—all hitting our custom AI Terminal at once.
+
+The tally for 6 hours of the global "Show HN" firestorm? Less than the price of a gumball.
+
+The "Old Web" (Wix/WordPress) would have crashed the site or sent a massive hosting bill.
+
+Tiny firm doing big-firm volume. No marketing department. No massive overhead. Just a blinking cursor and 30 years of design logic.
+
+By "duct-taping" an AI Edge-based agent directly into our site, we proved:
+1. Efficiency is the new scale: We don’t need junior staff to handle FAQs; we need better "Logic Anchors."
+2. The "Bulldog" works: Even with thousands of views, the bot stayed grounded in my 30 years of AEC "scar tissue" (mostly).
+3. Radical Transparency pays off: A massive global traffic spike and zero server meltdowns.
+
+Try to break it in the first comment. 👇
+
+(Edit: Corrected my traffic numbers! In the adrenaline of the HN launch, I initially quoted my total 30-day server requests instead of the unique pageviews for the 6-hour spike. Radical transparency means owning your typos. The real numbers are updated above!)
+
+hashtag#AEC hashtag#ShowHN hashtag#DeepSeek hashtag#Architecture hashtag#BuildingInPublic hashtag#AI hashtag#Netlify hashtag#DeepSeek
+Activate to view larger image,
+View image
+Activate to view larger image,
+likecelebrate
+4
+3 comments
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+349 impressions
+View analytics
+Feed post number 17
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+7mo •  7 months ago • Visible to anyone on or off LinkedIn
+
+Are you running a firm, or a shelter?
+I wrote a manifesto on why most AI implementations in AEC fail. It’s not the model—it’s the handler.
+Read the Three Dog Theory below to see if you are building an Elite Unit, or just a waiting room for bankruptcy.
+hashtag#AEC hashtag#HardFork hashtag#ThreeDogTheory hashtag#DeepSeek hashtag#Axoworks
+
+Three Dog Theory - Do you have a puppy problem?
+Kee H. Song 宋琦賢
+like
+2
+1 comment
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send
+540 impressions
+View analytics
+Feed post number 18
+View Kee H. Song   宋琦賢’s  graphic link
+Kee H. Song 宋琦賢Kee H. Song 宋琦賢
+ • YouYou
+AX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/AxotopiaAX Integrator | Design the Building. Deploy the Intelligence. | AI Deployment + BIM for Architects, Developers & Contractors | Open Source: github.com/Axotopia
+7mo •  7 months ago • Visible to anyone on or off LinkedIn
+
+THE BROWSER IS DEAD. WE KILLED IT.
+
+Studio Tim Fu gave us AI design. Google gave us AI search. Axoworks gives you AI agency.
+
+On January 1, 2026, while the industry slept, Axoworks became the first AEC firm in history to ship a public-facing AX (Agent Experience) interface.
+
+We didn't "update" our website. We deleted it.
+
+We nuked the "About Us" fluff. We shredded the contact forms. We replaced the entire digital existence of a professional firm with one thing:
+
+ The Concierge. A production-grade Autonomous Intake Node.
+
+This isn't a stunt. This is the Agent Experience (AX) paradigm shift defined by the likes of Netlify and agentexperience.ax—finally deployed in the physical world of construction.
+
+* Perception: It profiles your intent in real-time.
+* Reasoning: It negotiates zoning and feasibility in English, Chinese, Spanish, French—or any language DeepSeek v3.2 comprehends.
+* Action: It tags you hashtag#HOT_LEAD and fires a Discord webhook before a human logs in.
+
+Tiny is Mighty. We replaced the front desk with code. The portfolio with a query engine. The language barrier with a universal mind.
+
+We didn’t follow someone else’s path. We created it. We shipped it.
+
+Initialize The Concierge at axoworks.com
+
+P.S. Google’s agent helps you reschedule a haircut. Ours helps you permit a skyscraper in Mandarin. One is convenience. The other is conviction.
+
+hashtag#AxoworksRedux hashtag#TheBrowserIsDead hashtag#AgentExperience hashtag#AX hashtag#DeepSeek hashtag#TinyIsMighty hashtag#HardFork
+Activate to view larger image,
+text
+Activate to view larger image,
+likecelebrate
+8
+5 comments
+1 repost
+
+Like
+
+Comment
+
+Repost
+
+Send

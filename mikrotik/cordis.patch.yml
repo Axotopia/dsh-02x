@@ -1,0 +1,43 @@
+# Migrated from legacy ~/.dsh/.agent-presets/mikrotik/ for DSH 0.2.0-rc.2,
+# which no longer reads the legacy directory. Entry rows below are
+# agent.cordis.yml verbatim (re-indented) except documented renames.
+- insert:
+    - id: preset-mikrotik
+      name: '@deepseek-ai/dsh-agent-preset'
+      config:
+        id: mikrotik
+        name: "MikroTik Fleet"
+        order: 14
+        plugins:
+          # The `mikrotik` agent preset: mounts the MikroMCP MCP server (AliKarami/MikroMCP,
+          # npm `mikromcp` 1.11.0) so sessions on this preset get mcp__mikrotik__* tools.
+          #
+          # Registered here as a PRESET row rather than a cordis.patch.yml insert: the patch
+          # layer is parsed without the JS YAML schema, so `!!js` entries there abort the
+          # whole profile at boot (verified empirically 2026-09-21). `!!js` IS valid in
+          # agent-plane preset compositions - same mechanism the research-swarm preset uses
+          # for its browser-server cwd.
+          #
+          # Sessions that do NOT join this preset never load the 122 tool schemas, which
+          # contains the context cost of the tool surface.
+          #
+          # Router credentials live in ~/.mikromcp/.env (0600), loaded by MikroMCP itself
+          # (dotenv override:false) - no secrets in this file. Router registry:
+          # ~/.mikromcp/routers.yaml (core-01/edge-01/branch-01 = 10.10.80.1/.2/.3).
+
+          - id: mcp-mikrotik
+            name: '@deepseek-ai/dsh-mcp-client'
+            config:
+              serverName: mikrotik                 # tools appear as mcp__mikrotik__<tool>
+              transport: stdio
+              command: 'node'                      # spawn the real entry, not a bin shim
+              args:
+                - '/home/song/.local/mikromcp/node_modules/mikromcp/dist/main.js'
+              env:
+                MIKROMCP_CONFIG_PATH: /home/song/.mikromcp/routers.yaml
+                MIKROMCP_STDIO_IDENTITY: dsh-readonly   # agent-layer read-only (superadmin otherwise)
+                MIKROMCP_AUDIT_LOG_PATH: /home/song/.mikromcp/audit.jsonl
+                MIKROMCP_LOG_LEVEL: 'info'
+              toolCallTimeoutMs: 60000
+              failOnStartupError: true             # loud failure beats a silent empty tool list
+

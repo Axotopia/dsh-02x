@@ -1,0 +1,2 @@
+name: MikroTik Fleet
+description: "Read-only-first RouterOS fleet operations via MikroMCP 1.11.0 - mcp__mikrotik__* (122 typed REST tools over RouterOS v7). Dry-run before every write; the mcp-ro router user 403s all writes; the dsh-readonly identity restricts tool patterns to list_*/get_*/check_router_health."
