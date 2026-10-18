@@ -1,0 +1,7 @@
+name: Nemotron Super OCR
+description: >-
+  Hard-document OCR preset: turns scans and PDFs into SEARCHABLE PDFs — the page
+  image plus an invisible text layer placed on the detected words and a visible
+  box around every line — using a local vision model (nemotron-3.5-super:120b on
+  Ollama) or the same model on OpenRouter. No Markdown report unless asked.
+order: 35

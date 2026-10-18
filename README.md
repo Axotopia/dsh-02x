@@ -31,6 +31,7 @@ resolve beside the patch file, so each directory is portable.
 | `legal-financial-consul` | Legal-Financial Consul |
 | `medical-technician` | Medical Technician |
 | `mikrotik` | MikroTik Fleet |
+| `nemotron-super-ocr` | Nemotron Super OCR |
 | `ocr-md` | OCR to Markdown |
 | `ocr-md-json` | OCR-MD-JSON |
 | `property-researcher` | property-researcher |
@@ -56,6 +57,10 @@ editing a preset here, copy it back and reinstall the bundle.
 
 ## Migration notes
 
+- `nemotron-super-ocr` is the only preset written natively for the bundle layout: it
+  ships its own pipeline (`scripts/make_searchable_pdf.py`, `scripts/box_probe.py`) and
+  a generator (`scripts/make_bundle_patch.py`) that keeps `cordis.patch.yml` in sync
+  with `agent.cordis.yml`.
 - `@deepseek-ai/dsh-workflow-worker-thread` was retired in rc.2; the 11 presets that
   used it now mount `@deepseek-ai/dsh-workflow-ptc` (same `provider: spawn` config).
 - All `!!js` Loader expressions, comments and block scalars were carried over verbatim.
