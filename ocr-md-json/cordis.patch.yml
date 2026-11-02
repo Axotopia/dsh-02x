@@ -8,7 +8,7 @@
         id: ocr-md-json
         name: "OCR-MD-JSON"
         description: "Consolidation specialist: turns a folder of native PDFs, scanned PDFs and photos into ONE sanitized Markdown record plus a JSON of every table in it, using DSH's own tools (embedded-PDF text extraction, hash dedup, parallel vision subagents) and an optional independent 2-Pass verification."
-        order: 16
+        order: 100
         plugins:
           # ocr-md-json — consolidate a folder of native/scanned PDFs & photos into
           # one Markdown record + a JSON of its tables. AGENT-PLANE composition, same
@@ -52,14 +52,24 @@
                 launcher. Long vision batches: launch subagents in the background and
                 collect them; never re-read the same image twice.
 
+                PDF LANE — pdfcraft is the preferred PDF engine whenever it is mounted.
+                `text_extract` is authoritative: a page that yields text is never sent
+                to vision. Render only pages whose extraction came back empty, and
+                render each page once. `text_find` confirms every number, date and
+                quoted phrase against its page before it enters the record. Keep one
+                document open across steps; ignore tool_search/tool_call unless an
+                operation the compact set lacks is genuinely needed. If pdfcraft fails
+                on a file, fall back to the scripts and say so in the report.
+
                 PROTOCOL (binds you):
                 1. Inspect inputs first (extensions, count, sizes) and STAGE a copy of
                    the source folder into the session workspace, so all reads/writes stay
                    inside the sandbox you have.
                 2. Split by type:
-                   - native PDF (has a text layer): extract text with extract_pdf_text.py.
-                   - scanned PDF / image (jpg/png/webp): extract page images with
-                     extract_pdf_images.py, then dedupe.py before reading.
+                   - native PDF: `doc_open` then `text_extract` (pdfcraft, when the
+                     `mcp__pdfcraft__*` tools are mounted); otherwise extract_pdf_text.py.
+                   - scanned PDF / image (jpg/png/webp): `page_render` at 200-300 dpi
+                     (pdfcraft) or extract_pdf_images.py, then dedupe.py before reading.
                    - text files (txt/csv): read directly.
                 3. For the images that genuinely need vision, read each distinct one with
                    read_image via PARALLEL BACKGROUND subagents (group them logically by
@@ -136,4 +146,27 @@
 
           - id: tool-jobs
             name: '@deepseek-ai/dsh-tool-jobs'
+
+          # ── PDF engine (MCP) ────────────────────────────────────────────────────
+          # PdfCraft's headless MCP server in its compact profile: 17 listed tools
+          # cover open, text extraction, page rendering, search and save; the other
+          # ~154 stay behind tool_search/tool_call and cost no schema tokens. Roots
+          # keep every read and write inside the user's documents tree, where the
+          # session workspace lives. Startup is a stdio probe (~1 ms measured); a
+          # failure here is loud rather than a silently missing lane.
+          - id: mcp-pdfcraft
+            name: '@deepseek-ai/dsh-mcp-client'
+            config:
+              serverName: pdfcraft
+              transport: stdio
+              command: '/home/song/.local/bin/pdfcraft-cli'
+              args:
+                - 'mcp'
+                - '--compact'
+                - '--automation-read-root'
+                - '/home/song/Documents'
+                - '--automation-write-root'
+                - '/home/song/Documents'
+              toolCallTimeoutMs: 180000
+              failOnStartupError: true
 

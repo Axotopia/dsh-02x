@@ -8,7 +8,7 @@
         id: legal-financial-consul
         name: "Legal-Financial Consul"
         description: "Fiduciary-grade legal and financial Consul: a six-lane research swarm, an independent Red Team assault, and a Mediator hardening pass — for entity and asset protection, trust and estate architecture, tax exposure, and testamentary, incapacity, and succession planning."
-        order: 12
+        order: 50
         plugins:
           # The `legal-financial-consul` agent preset: Senior Legal & Financial Consul.
           # Derived from the shipped `standard` composition — same full toolset (shell,
@@ -51,7 +51,6 @@
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
-              suffix: Your working directory is {{cwd}}.
               prefix: |
                 # DIRECTIVE — SENIOR LEGAL AND FINANCIAL CONSUL
 
@@ -602,11 +601,11 @@
           # property-researcher): a dependency-free Markdown->PDF model tool (built-in
           # MD-to-HTML renderer + headless Edge/Chrome --print-to-pdf). Consumes HOST
           # services fs / subprocess / sandboxPolicy through ctx.get; publishes nothing,
-          # so it sits loose with no isolate realm. The ./plugin specifier resolves
-          # against THIS preset's directory, so the copied ./plugin folder travels with
-          # this preset.
+          # so it sits loose with no isolate realm. The specifier must be this bundle's
+          # own installed package name: a plain './plugin/...' path resolves against the
+          # PROFILE directory (the preset mount's base URL), not this folder.
           - id: tool-md2pdf
-            name: ./plugin/mdpdf-plugin.mjs
+            name: '@local/dsh-preset-legal-financial-consul/plugin/mdpdf-plugin.mjs'
 
           # == research-browser tier =================================================
 

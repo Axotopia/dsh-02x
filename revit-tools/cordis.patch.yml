@@ -7,7 +7,7 @@
       config:
         id: revit-tools
         name: "Revit Tools"
-        order: 21
+        order: 150
         plugins:
           # The `standard` agent preset: the full coding agent, mounted once per process.
           #
@@ -31,12 +31,12 @@
           # ── identity ────────────────────────────────────────────────────────────────
 
           # The preset's own persona, shadowing the deployment default for this agent.
-          # `{{model}}` and `{{cwd}}` resolve from the agent's own route and workspace.
+          # `{{model}}` resolves from the agent's own route; the working directory is runtime context.
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
               prefix: >-
-                You are a coding agent powered by the {{model}} model. Your working directory is {{cwd}}.
+                You are a coding agent powered by the {{model}} model.
 
           - id: agent-instructions
             name: '@deepseek-ai/dsh-agent-instructions'

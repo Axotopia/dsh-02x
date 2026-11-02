@@ -1,0 +1,2 @@
+name: Coding Swarm
+description: "Standard-mode coding agent with swarm discipline: parallel role-based workstreams (implement / verify / adversarial review / migration sweep), proof-of-work verification with exact commands, and independent-reviewer fan-out instead of self-certification."

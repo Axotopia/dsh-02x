@@ -7,7 +7,7 @@
       config:
         id: mikrotik
         name: "MikroTik Fleet"
-        order: 14
+        order: 70
         plugins:
           # The `mikrotik` agent preset: mounts the MikroMCP MCP server (AliKarami/MikroMCP,
           # npm `mikromcp` 1.11.0) so sessions on this preset get mcp__mikrotik__* tools.

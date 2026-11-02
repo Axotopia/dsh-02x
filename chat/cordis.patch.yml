@@ -8,7 +8,7 @@
         id: chat
         name: "Chat"
         description: "General-purpose assistant: answers directly, checks the web when the answer depends on current facts, runs a deliberate multi-source research pass when the question is genuinely complex, and spins up subagents, a workflow or a ralph loop only when the work exceeds one context."
-        order: 20
+        order: 10
         plugins:
           # chat — a general-purpose assistant preset with an escalation ladder.
           #

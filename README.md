@@ -1,9 +1,9 @@
 # dsh-02x
 
-Custom agent presets for DeepSeek Harness **0.2.0-rc.2**, one installable bundle per subdirectory.
+Custom agent presets for DeepSeek Harness **0.2.1-rc.5**, one installable bundle per subdirectory.
 
 These presets were migrated from the legacy layout (`~/.dsh/.agent-presets/<id>/` with
-`preset.yml` + `agent.cordis.yml`), which rc.2 no longer reads. Each directory is now a
+`preset.yml` + `agent.cordis.yml`), which 0.2.x no longer reads. Each directory is now a
 self-contained Cordis bundle that declares its preset as an
 `@deepseek-ai/dsh-agent-preset` row.
 
@@ -19,14 +19,19 @@ Each preset subdirectory contains:
 | `preset.yml` | Original legacy metadata (name / description / order) |
 | assets | Whatever the preset carries: `skills/`, `plugin/`, `server/`, `scripts/`, `mappings/`, `reference/` |
 
-Relative specifiers inside `cordis.patch.yml` (e.g. `name: ./plugin/mdpdf-plugin.mjs`)
-resolve beside the patch file, so each directory is portable.
+Relative specifiers inside `cordis.patch.yml` (e.g. `name: ./plugin/mdpdf-plugin.mjs`) are
+rewritten to file URLs **only** for rows inserted at the top level of an `insert:` list.
+A row nested in a preset declaration's `config.plugins` is *not* rewritten: it resolves
+against the profile rather than the bundle, fails to import, and the tool is silently
+absent at runtime — no boot error. Those rows must use the bundle's installed package
+name, `@local/dsh-preset-<id>/plugin/mdpdf-plugin.mjs`, as every preset here now does.
 
 ## Presets
 
 | Directory | Display name |
 | --- | --- |
 | `chat` | Chat |
+| `coding-swarm` | Coding Swarm |
 | `debate-team` | Debate Team |
 | `legal-financial-consul` | Legal-Financial Consul |
 | `medical-technician` | Medical Technician |

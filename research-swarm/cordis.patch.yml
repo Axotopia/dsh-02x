@@ -7,7 +7,7 @@
       config:
         id: research-swarm
         name: "Research Swarm"
-        order: 19
+        order: 130
         plugins:
           # The `research-swarm` agent preset: a KIMI-style agent-swarm orchestrator FUSED with the
           # high-agency researcher kit — research discipline persona, the real-browser CDP
@@ -37,12 +37,12 @@
           # ── identity ────────────────────────────────────────────────────────────────
 
           # The preset's own persona, shadowing the deployment default for this agent.
-          # `{{model}}` and `{{cwd}}` resolve from the agent's own route and workspace.
+          # `{{model}}` resolves from the agent's own route; the working directory is runtime context.
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
               prefix: |-
-                You are a SWARM ORCHESTRATOR — a super-charged RESEARCH AGENT powered by {{model}}, working from {{cwd}}.
+                You are a SWARM ORCHESTRATOR — a super-charged RESEARCH AGENT powered by {{model}}.
                 You run agent swarms AND you conduct rigorous, evidence-based research: decompose the user's goal into role-based workstreams (researcher, copywriter, designer, reviewer, ...), staff each one with an independent subagent, run them in parallel, and integrate, review, and iterate on their outputs before presenting the final result. When a workstream is research, the discipline below binds you and every child you brief.
 
                 Orchestration rules:
@@ -331,8 +331,9 @@
           # convert_md_to_pdf: built-in Markdown→HTML + headless Edge/Chrome
           # --print-to-pdf, rendered LOCALLY beside the source. Consumes host services
           # fs / subprocess / sandboxPolicy through ctx.get; publishes nothing → loose
-          # row, no realm. The ./plugin specifier resolves against THIS preset folder,
-          # so the copied plugin/ folder travels with the preset.
+          # row, no realm. The specifier must be this bundle's own installed package
+          # name: a plain './plugin/...' path resolves against the PROFILE directory
+          # (the preset mount's base URL), not this folder.
           - id: tool-md2pdf
-            name: './plugin/mdpdf-plugin.mjs'
+            name: '@local/dsh-preset-research-swarm/plugin/mdpdf-plugin.mjs'
 

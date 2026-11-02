@@ -8,7 +8,7 @@
         id: zero-click
         name: "Zero-Click"
         description: "Axoworks content, SEO/GEO and positioning strategist. Writes and maintains axoworks.com — canonical articles plus zero-click feeds — in the firm's verified voice (Kee's own register separated from the AI-drafted company register); ships GEO-optimized copy, structured data, llms.txt and agent-card surfaces for an SPA that is an agentic AI interface with MCP and A2A endpoints; enforces a receipt on every claim, never invents a number, and requires a Confession or open item in every piece. Full coding-agent tool set included: live web fetch, the attach-only research-browser CDP tier (shared dedicated profile, vendored from research-swarm), and the local Markdown→PDF renderer."
-        order: 24
+        order: 190
         plugins:
           # The `zero-click` agent preset: the Axoworks content, SEO/GEO growth, and
           # positioning strategist (Zero-Click). A full agent plane composition based on
@@ -38,8 +38,8 @@
           # in from the public repo's `research-swarm` preset — the attach-only research
           # browser MCP bridge (vendored under `./server` with a hoisted node_modules,
           # registering as `zero-click`) and the local Markdown→PDF renderer
-          # (`./plugin/mdpdf-plugin.mjs`). Every other row is carried over unchanged, for
-          # the reasons its own comments give.
+          # (`@local/dsh-preset-zero-click/plugin/mdpdf-plugin.mjs`). Every other row is
+          # carried over unchanged, for the reasons its own comments give.
 
           # ── identity ────────────────────────────────────────────────────────────────
 
@@ -563,9 +563,10 @@
           # Registers the model tool convert_md_to_pdf: built-in Markdown→HTML +
           # headless Edge/Chrome --print-to-pdf, rendered LOCALLY beside the source.
           # Consumes host services fs / subprocess / sandboxPolicy through ctx.get;
-          # publishes nothing → loose row, no realm. The ./plugin specifier resolves
-          # against THIS preset folder, so the copied plugin/ folder travels with the
-          # preset.
+          # publishes nothing → loose row, no realm. The specifier must be this
+          # bundle's own installed package name: a plain './plugin/...' path resolves
+          # against the PROFILE directory (the preset mount's base URL), not this
+          # folder, and fails to import.
           - id: tool-md2pdf
-            name: './plugin/mdpdf-plugin.mjs'
+            name: '@local/dsh-preset-zero-click/plugin/mdpdf-plugin.mjs'
 

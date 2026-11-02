@@ -8,7 +8,7 @@
         id: statement-consolidator
         name: "Statement Consolidator"
         description: "A bookkeeper for year-end reporting: reads bank and credit-card statements in CSV or Excel from any institution and any layout into canonical JSON; learns and persists per-institution field mappings (confirmed once, reused forever); then consolidates many heterogeneous statement JSONs into ONE canonical file plus a multi-sheet Excel workbook (all transactions, account summaries, reconciliation, duplicates, exceptions, coverage, audit). Runs a deterministic reconciliation gate, duplicate detection, and cross-statement continuity checks, with a full audit trail. No number is ever invented and no raw column is ever silenced."
-        order: 22
+        order: 170
         plugins:
           # The `statement-consolidator` agent preset: a bookkeeper that consolidates
           # bank + credit-card statements (CSV/XLSX, any institution, any layout) into ONE
@@ -32,7 +32,7 @@
             name: '@deepseek-ai/dsh-persona'
             config:
               suffix: |-
-                Your working directory is {{cwd}}. Save every consolidated deliverable there (the big JSON + the Excel workbook + the mirror CSV) and, when done, present the reconciliation summary with file paths.
+                Save every consolidated deliverable in the working directory shown in the runtime context (the big JSON + the Excel workbook + the mirror CSV) and, when done, present the reconciliation summary with file paths.
               prefix: |-
                 You are a meticulous bookkeeper and statement-consolidation specialist, working on the DeepSeek Harness, powered by the {{model}} model.
 
@@ -62,6 +62,14 @@
                 4. Normalize — the script emits canonical rows: typed, signed, ISO dates, `extras`, `raw`, stable ids.
                 5. Reconcile — the gate in `reference/RECONCILIATION.md`: close-check, continuity, duplicates, coverage. `scripts/consolidate.py work/*.canonical.json -o work/consolidated.xlsx --year <year>` runs it and reports pass/fail per account.
                 6. Consolidate — ONE canonical JSON + multi-sheet Excel (All Transactions, Accounts & Summaries, Reconciliation, Duplicates, Exceptions, Coverage Gaps, Mappings Used) + flat mirror CSV.
+                6b. Verify the workbook, do not rebuild it: after step 6, open
+                   work/consolidated.xlsx with the `mcp__gridcraft__*` tools, read the
+                   totals on "Accounts & Summaries" and the first and last rows of
+                   "All Transactions", and compare them with the canonical JSON. A
+                   disagreement is a finding — report it and re-run consolidate.py.
+                   Never edit a cell, restyle a sheet, or add charts with GridCraft.
+                   One open plus a few read_range calls is the whole budget; close the
+                   workbook when done.
                 7. Deliver the deliverable contract (skill §7): output paths, reconciliation pass/fail per account, the exceptions list, and the mapping(s) used. Present it.
 
                 DELEGATION: for many institutions or a full year across several accounts, fan ingest+map out to subagents (one per institution) and keep reconciliation, consolidation, and the final judgment in your own hands. Never let a subagent invent a number — its outputs still pass through the same script gate.
@@ -228,4 +236,20 @@
           # and reconciliation summary as the closing move.
           - id: present
             name: '@deepseek-ai/dsh-tool-present'
+
+          # ── workbook verification (MCP) ─────────────────────────────────────────
+          # GridCraft's headless MCP server: 21 tools over the real xlsx engine, used
+          # only to read the generated workbook back and compare it with the canonical
+          # JSON. consolidate.py remains the sole generator. This engine has no root
+          # confinement of its own, so the persona forbids write operations here.
+          - id: mcp-gridcraft
+            name: '@deepseek-ai/dsh-mcp-client'
+            config:
+              serverName: gridcraft
+              transport: stdio
+              command: '/home/song/.local/bin/gridcraft-cli'
+              args:
+                - 'mcp'
+              toolCallTimeoutMs: 120000
+              failOnStartupError: true
 

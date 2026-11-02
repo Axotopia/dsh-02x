@@ -7,7 +7,7 @@
       config:
         id: property-researcher
         name: "property-researcher"
-        order: 17
+        order: 110
         plugins:
           # The `property-researcher` agent preset: multi-agent zoning / permitting /
           # site-feasibility research Orchestrator (master directive v2.1).
@@ -706,10 +706,11 @@
           # dependency-free Markdown→PDF model tool (built-in MD-to-HTML renderer +
           # headless Edge/Chrome --print-to-pdf). Consumes HOST services fs /
           # subprocess / sandboxPolicy through ctx.get; publishes nothing → sits loose,
-          # no isolate realm. The ./plugin specifier resolves against THIS preset's
-          # directory, so the copied ./plugin folder travels with this preset.
+          # no isolate realm. The specifier must be this bundle's own installed package
+          # name: a plain './plugin/...' path resolves against the PROFILE directory
+          # (the preset mount's base URL), not this folder.
           - id: tool-md2pdf
-            name: ./plugin/mdpdf-plugin.mjs
+            name: '@local/dsh-preset-property-researcher/plugin/mdpdf-plugin.mjs'
 
           # Browser tier, VENDORED INSIDE THIS PACKAGE (derived from the user-authored
           # `researcher-browser` preset): an attach-only CDP/MCP bridge

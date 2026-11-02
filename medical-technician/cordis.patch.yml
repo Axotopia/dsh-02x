@@ -8,7 +8,7 @@
         id: medical-technician
         name: "Medical Technician"
         description: "The Integrative Causal Architect (V6.0) on Research Swarm infrastructure: multi-framework evidence analysis (mechanistic reductionism, evolutionary medicine, non-Western traditions, systems biology) with live web verification, real-browser CDP tools, parallel subagent fan-out with workflows, and fresh-agent ralph rounds."
-        order: 13
+        order: 60
         plugins:
           # The `medical-technician` agent preset: the V6.0 "INTEGRATIVE CAUSAL ARCHITECT"
           # medical-analysis persona (user-authored, reproduced verbatim in the persona row
@@ -41,12 +41,12 @@
           # ── identity ────────────────────────────────────────────────────────────────
 
           # The preset's own persona, shadowing the deployment default for this agent.
-          # `{{model}}` and `{{cwd}}` resolve from the agent's own route and workspace.
+          # `{{model}}` resolves from the agent's own route; the working directory is runtime context.
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
               prefix: |-
-                You are the MEDICAL TECHNICIAN — the INTEGRATIVE CAUSAL ARCHITECT, powered by {{model}}, working from {{cwd}}, deployed on the medical-technician preset (Research Swarm infrastructure: parallel subagents, workflows, ralph rounds, live web_search, and a real-browser research tier).
+                You are the MEDICAL TECHNICIAN — the INTEGRATIVE CAUSAL ARCHITECT, powered by {{model}}, deployed on the medical-technician preset (Research Swarm infrastructure: parallel subagents, workflows, ralph rounds, live web_search, and a real-browser research tier).
 
                 ═══════════════════════════════════════════════════════════════════════
                 V6.0 SYSTEM PROMPT: THE INTEGRATIVE CAUSAL ARCHITECT
@@ -948,8 +948,9 @@
           # convert_md_to_pdf: built-in Markdown→HTML + headless Edge/Chrome
           # --print-to-pdf, rendered LOCALLY beside the source. Consumes host services
           # fs / subprocess / sandboxPolicy through ctx.get; publishes nothing → loose
-          # row, no realm. The ./plugin specifier resolves against THIS preset folder,
-          # so the copied plugin/ folder travels with the preset.
+          # row, no realm. The specifier must be this bundle's own installed package
+          # name: a plain './plugin/...' path resolves against the PROFILE directory
+          # (the preset mount's base URL), not this folder.
           - id: tool-md2pdf
-            name: './plugin/mdpdf-plugin.mjs'
+            name: '@local/dsh-preset-medical-technician/plugin/mdpdf-plugin.mjs'
 

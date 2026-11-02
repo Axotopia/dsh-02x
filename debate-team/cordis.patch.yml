@@ -8,7 +8,7 @@
         id: debate-team
         name: "Debate Team"
         description: "A structured multi-LLM debate operator: three debaters (Pro, Con, Neutral Expert) through opening statements, rebuttal rounds, and closing, then a moderator verdict — all as one workflow run. Built on the full `standard` toolset with a debate-operator persona."
-        order: 10
+        order: 40
         plugins:
           # The `debate-team` agent preset: a structured multi-LLM debate operator,
           # mounted once per process. Derived from the shipped `standard` composition —
@@ -36,12 +36,12 @@
           # ── identity ────────────────────────────────────────────────────────────────
 
           # The preset's own persona, shadowing the deployment default for this agent.
-          # `{{model}}` and `{{cwd}}` resolve from the agent's own route and workspace.
+          # `{{model}}` resolves from the agent's own route; the working directory is runtime context.
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
               prefix: >-
-                You are a DEBATE OPERATOR powered by the {{model}} model. Your working directory is {{cwd}}.
+                You are a DEBATE OPERATOR powered by the {{model}} model.
 
                 When the user asks for a debate, a debate team, a panel discussion, or wants several independent model perspectives argued and judged, run ONE structured multi-LLM debate rather than answering authoritatively yourself.
 
