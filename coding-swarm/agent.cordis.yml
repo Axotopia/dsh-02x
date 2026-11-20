@@ -1,0 +1,118 @@
+# Legacy-layout entry list, kept for reference only.
+#
+# Under DSH 0.2.0-rc.2 this directory is no longer read: the live declaration is
+# `cordis.patch.yml` beside it, whose `config.plugins` list is this list verbatim
+# (re-indented). Edit the patch file, not this one.
+#
+# The preset is exactly the shipped `standard` plugin set with the `research-swarm`
+# way of working applied to code. Differences from `standard`:
+#   - persona            : replaced by the coding-swarm orchestrator/verifier persona
+#   - tool-ralph         : enabled (standard ships it disabled)
+#   - tool-web           : fetch: true (standard), fetchTimeoutMs added explicitly
+#   - mcp-research-browser / tool-md2pdf : absent; both are research instruments
+- id: persona
+  name: '@deepseek-ai/dsh-persona'
+  config:
+    prefix: See cordis.patch.yml — the coding-swarm persona lives there.
+- id: agent-instructions
+  name: '@deepseek-ai/dsh-agent-instructions'
+  config:
+    maxBytes: 65536
+- id: tool-bash
+  name: '@deepseek-ai/dsh-tool-bash'
+  disabled: !!js process.platform === 'win32'
+- id: tool-pwsh
+  name: '@deepseek-ai/dsh-tool-pwsh'
+  disabled: !!js process.platform !== 'win32'
+- id: tool-fs
+  name: '@deepseek-ai/dsh-tool-fs'
+- id: tool-fs-search
+  name: '@deepseek-ai/dsh-tool-fs-search'
+  config:
+    sampleOverCapGlobResults: false
+- id: tool-jobs
+  name: '@deepseek-ai/dsh-tool-jobs'
+- id: skill-filesystem
+  name: '@deepseek-ai/dsh-skill-filesystem'
+- id: tool-skill
+  name: '@deepseek-ai/dsh-tool-skill'
+- id: command-goal
+  name: '@deepseek-ai/dsh-command-goal'
+- id: tool-goal
+  name: '@deepseek-ai/dsh-tool-goal'
+- id: planning
+  name: cordis:group
+  group: true
+  isolate:
+    planMode: true
+  config:
+    - id: plan-mode
+      name: '@deepseek-ai/dsh-plan-mode'
+- id: compaction
+  name: cordis:group
+  group: true
+  isolate:
+    compaction: true
+    toolResultPruner: true
+  config:
+    - id: compaction-basic
+      name: '@deepseek-ai/dsh-compaction-basic'
+    - id: command-compact
+      name: '@deepseek-ai/dsh-command-compact'
+    - id: tool-result-pruner
+      name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+      config:
+        thresholdChars: 8192
+        headChars: 4096
+        tailChars: 1024
+- id: delegation
+  name: cordis:group
+  group: true
+  isolate:
+    workflowEngine: true
+  config:
+    - id: tool-subagent-control
+      name: '@deepseek-ai/dsh-tool-subagent-control'
+    - id: tool-subagent-list-agents
+      name: '@deepseek-ai/dsh-tool-subagent-control/list-agents'
+    - id: tool-subagent
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: spawn
+        toolName: subagent
+        modelSelectionSettings: true
+        backgroundMode: continuable
+    - id: tool-subagent-fork
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: fork
+        toolName: subagent_fork
+        backgroundMode: continuable
+    - id: workflow-ptc
+      name: '@deepseek-ai/dsh-workflow-ptc'
+      config:
+        provider: spawn
+    - id: tool-workflow
+      name: '@deepseek-ai/dsh-tool-workflow'
+    - id: tool-ralph
+      name: '@deepseek-ai/dsh-tool-ralph'
+      config:
+        subagentProvider: spawn
+        maxRounds: 64
+- id: tool-ask-user
+  name: '@deepseek-ai/dsh-tool-ask-user'
+- id: tool-todo
+  name: '@deepseek-ai/dsh-tool-todo'
+  config:
+    allowParallelInProgress: true
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: true
+    fetchTimeoutMs: 30000
+    searchTimeoutMs: 60000
+- id: present
+  name: '@deepseek-ai/dsh-tool-present'
+- id: tool-plugin-manager
+  name: '@deepseek-ai/dsh-plugin-manager/tools'
+  disabled: true
